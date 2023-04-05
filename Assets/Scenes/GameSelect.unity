@@ -485,28 +485,764 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameDataStorage:
-  - mName: Vanguard
-    mLeagueIcon: {fileID: 501611572, guid: 7f3ec9872519b2341b2b4b6816a1d69e, type: 3}
-    mBannerImage: {fileID: 21300000, guid: 64191a01391a48940bb24d7c429af3ab, type: 3}
-    mMapSelectBackground: {fileID: 0}
-    mGameModes: []
-    mMaps: []
-    mAssetsPath: 
   - mName: Infinite
+    mIsGameActive: 0
     mLeagueIcon: {fileID: -1514211007, guid: 52c5f7dd527bacd4095a98ec507381f0, type: 3}
-    mBannerImage: {fileID: 21300000, guid: b6e3c190845f3324ab19e6475aa095b4, type: 3}
+    mBannerImage: {fileID: 21300000, guid: 3d226464e492a35468850c6b6916b81a, type: 3}
     mMapSelectBackground: {fileID: 0}
     mGameModes: []
     mMaps: []
     mAssetsPath: 
-  - mName: Cold War
+  - mName: MW2
+    mIsGameActive: 1
     mLeagueIcon: {fileID: 501611572, guid: 7f3ec9872519b2341b2b4b6816a1d69e, type: 3}
-    mBannerImage: {fileID: 21300000, guid: b645d881e7ba8104987c7750c6fb8c99, type: 3}
+    mBannerImage: {fileID: 21300000, guid: 3c8aa2c77bce5214888109d8acfaa057, type: 3}
     mMapSelectBackground: {fileID: 0}
     mGameModes:
-    - mAvailableMaps: []
+    - mName: Control
+      mAvailableMaps:
+      - mName: Al Bagra Fortress
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Breenbergh Hotel
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: El Asilo
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Expo
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    - mName: Hardpoint
+      mAvailableMaps:
+      - mName: Al Bagra Fortress
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Breenbergh Hotel
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Embassy
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Mercado Las Almas
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Zarqwa Hydroelectric
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    - mName: Search & Destroy
+      mAvailableMaps:
+      - mName: Al Bagra Fortress
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Breenbergh Hotel
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: El Asilo
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Embassy
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Mercado Las Almas
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: {fileID: 0}
+          overlayHP: {fileID: 0}
+          overlaySnD: {fileID: 0}
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     mMaps:
-    - mName: 
+    - mName: Al Bagra Fortress
       mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 2dd965deb668d3742adae657647f8717, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 292d4815d96705447ac8335b0de09b7c, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: a1a87c9a69fcb144fb878942ce362188, type: 3}
+        overlayHP: {fileID: 21300000, guid: b268e5f48c3901744bfe6e058edc58f4, type: 3}
+        overlaySnD: {fileID: 21300000, guid: 4731e2dd2e0ce1b4e9755ff3aca4896e, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -586, y: -54, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 516, y: 285, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 516, y: 285, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -586, y: -54, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 113, y: 284, z: 1008}
+            mSpawnDirectionVector: {x: 0, y: -1, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -297, y: -351, z: 1008}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+    - mName: Breenbergh Hotel
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 511e4fed5a2a27648a6d728b09a2451f, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: ffb8c25f804fd8b4e9cf8f39e190badf, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: ae9f7a1ad6b5e3e4c9e4a4350bd19c07, type: 3}
+        overlayHP: {fileID: 21300000, guid: 1aa7073dba9d4a14dac36542cceaa656, type: 3}
+        overlaySnD: {fileID: 21300000, guid: 87763439b3fbf2840aabc49608bb3ff6, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 608, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -636, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -636, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 608, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -636, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 608, y: -83, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    - mName: El Asilo
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: fbd0706e3300f424fa2a1802b8029f0b, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 4f719e17b5a092d45a690e2c55cd93b0, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: d88588eea919d714f9a407a40799c804, type: 3}
+        overlayHP: {fileID: 21300000, guid: 8dc1e5cc29d3cad4cb81d04614054028, type: 3}
+        overlaySnD: {fileID: 21300000, guid: 73caf6591b16e0e47aa22bbcd0fed155, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -449, y: -287, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 460, y: 40, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -425, y: 2, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 460, y: 40, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -452, y: 2, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 507, y: 138, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    - mName: Embassy
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 3fcfe7425fafe9e4eb69adba8a8adf36, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 38451da6eed44264384cab141f62d5a6, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: 98a67027a06baba44a67e2f924bee62d, type: 3}
+        overlayHP: {fileID: 21300000, guid: de430c5e7fdcde043adcb3ab5d5666a1, type: 3}
+        overlaySnD: {fileID: 21300000, guid: e71575411de62854686863dd09b59233, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -421, y: -343, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 382, y: 251, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -421, y: -343, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 382, y: 251, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -421, y: -343, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 382, y: 251, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    - mName: Expo
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 81f211194b59bbc438eec87460bb234f, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 430f49d676512244d8c7dbe05d040972, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: 27ba3c6ccfce3c44fa589e26d6f58ec9, type: 3}
+        overlayHP: {fileID: 0}
+        overlaySnD: {fileID: 0}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -521, y: 213, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 500, y: -78, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 538, y: -244, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -579, y: 22, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -579, y: 22, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 538, y: -244, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    - mName: Mercado Las Almas
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 1bdcd9b0e335d39419bd620a00c9523d, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: b0cb49230ec8d2f49b51282dcbf31ea0, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: 55bd29d1fe11fe042b3210e09f1cfee7, type: 3}
+        overlayHP: {fileID: 21300000, guid: a8293a5c1163ae747a7e5b31447e6322, type: 3}
+        overlaySnD: {fileID: 21300000, guid: 189bfd2607c3c40498d79580d4dc91c9, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -464, y: -41, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 454, y: -193, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -56, y: -382, z: 1008}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 50, y: 381, z: 1008}
+            mSpawnDirectionVector: {x: 0, y: -1, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -464, y: -41, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 454, y: -193, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    - mName: Zarqwa Hydroelectric
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: d78856eeaa3ed6041965df647e7cb4ea, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 5a6dbc8ebcd82bb4aa9fe5ff0e411396, type: 3}
+        overlayCtrl: {fileID: 21300000, guid: 9b0385cd95b30a84597bdc3e614902f4, type: 3}
+        overlayHP: {fileID: 21300000, guid: 2c07728015a987c418bceb36dc1aa95a, type: 3}
+        overlaySnD: {fileID: 21300000, guid: 33aab3b22ac44e440b869f4f47e2868b, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -579, y: 22, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 538, y: -244, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 538, y: -244, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -579, y: 22, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -579, y: 22, z: 1008}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 538, y: -244, z: 1008}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+    mAssetsPath: 
+  - mName: Unknown
+    mIsGameActive: 0
+    mLeagueIcon: {fileID: 0}
+    mBannerImage: {fileID: 21300000, guid: a434116778d9acf45b05ded934570ef6, type: 3}
+    mMapSelectBackground: {fileID: 0}
+    mGameModes: []
+    mMaps: []
     mAssetsPath: 
   GameSelectedIndex: -1
+  GameModeSelected:
+    mName: 
+    mAvailableMaps: []
+  GameMapSelected:
+    mName: 
+    mCompetetive: 0
+    mMapImages:
+      mapBase: {fileID: 0}
+      overlayCallouts: {fileID: 0}
+      overlayCtrl: {fileID: 0}
+      overlayHP: {fileID: 0}
+      overlaySnD: {fileID: 0}
+    mSpawnPositions:
+      spawnCtrl:
+        mInitialized: 0
+        redSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        blueSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      spawnHP:
+        mInitialized: 0
+        redSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        blueSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      spawnSnD:
+        mInitialized: 0
+        redSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        blueSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}

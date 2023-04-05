@@ -48,10 +48,18 @@ public class GameTabManager : MonoBehaviour
             //Adding button functionality to empty game object
             newButton.AddComponent<Button>();
             Button buttonObj = newButton.GetComponent<Button>();
-            buttonObj.onClick.AddListener(delegate { GameSelected(Array.IndexOf(gameData, game)); } );
+
+            if (game.GetIsGameActive())
+            {
+                buttonObj.onClick.AddListener(delegate { GameSelected(Array.IndexOf(gameData, game)); });
+            }
 
             ColorBlock cb = buttonObj.colors;
-            cb.normalColor = new Color(0.5f,0.5f,0.5f,1);
+            cb.normalColor = new Color(0.25f, 0.25f, 0.25f, 1);
+            cb.pressedColor = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+            Navigation noNav = new Navigation();
+            noNav.mode = Navigation.Mode.None;
+            buttonObj.navigation = noNav;
             buttonObj.colors = cb;
 
             mButtons.Add(newButton);
@@ -77,7 +85,6 @@ public class GameTabManager : MonoBehaviour
                         Image img = button.GetComponent<Image>();
 
                         ColorBlock cb = button.GetComponent<Button>().colors;
-                        Debug.Log(button.GetComponent<Button>().colors.normalColor);
 
                         rt.anchorMin = new Vector2(0.333f + (i * 0.333f), 0);
                         rt.anchorMax = new Vector2(1 + ((i - 1) * 0.333f), 1);

@@ -5,18 +5,22 @@ TagManager:
   serializedVersion: 2
   tags:
   - DataObject
+  - PlayerObject
+  - SubMenu
+  - InputController
+  - BlockingObject
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Maps
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerIcons
+  - UIOverlay
+  - HideFromGRays
+  - Drawing
+  - ClickableUI
   - 
   - 
   - 
@@ -41,4 +45,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 2387050493
+    locked: 0
+  - name: Drawings
+    uniqueID: 3175776159
+    locked: 0
+  - name: UI
+    uniqueID: 1273360843
     locked: 0
