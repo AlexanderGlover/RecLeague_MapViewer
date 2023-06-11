@@ -97,9 +97,53 @@ public class MenuButtonFunctionality : MonoBehaviour
     public void ToggleObjectiveOverlay()
     {
         GameObject objectiveOverlaySprite = GameObject.Find("ObjectiveOverlay");
-        if (objectiveOverlaySprite)
+        ApplicationData mAppData = GameObject.Find("DataObject").GetComponent<ApplicationData>();
+
+        Sprite[] overlayObjective;
+
+
+        switch (mAppData.GameModeSelected.GetName())
         {
-            objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled = !objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled;
+            case "Hardpoint":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetHPOverlay();
+                break;
+            case "Search & Destroy":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetSnDOverlay();
+                break;
+            case "Control":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay();
+                break;
+            default:
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetHPOverlay();
+                break;
+        }
+
+        bool trigger = false;
+
+        foreach (Sprite img in overlayObjective)
+        {
+            if (trigger)
+            {
+                objectiveOverlaySprite.GetComponent<SpriteRenderer>().sprite = img;
+                trigger = false;
+                break;
+            }
+
+            if (img.name == objectiveOverlaySprite.GetComponent<SpriteRenderer>().sprite.name && objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled)
+            {
+                trigger = true;
+            }
+        }
+
+        if (trigger)
+        {
+            objectiveOverlaySprite.GetComponent<SpriteRenderer>().sprite = overlayObjective[0];
+            objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        else if (!objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled)
+        {
+            objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled = true;
         }
 
         transform.gameObject.GetComponent<Image>().sprite = objectiveOverlaySprite.GetComponent<SpriteRenderer>().enabled ? selectedButtonSprite : defaultButtonImage;

@@ -10,15 +10,15 @@ public class MapImages
 
     //OVERLAYS
     [SerializeField] Sprite overlayCallouts;
-    [SerializeField] Sprite overlayCtrl;
-    [SerializeField] Sprite overlayHP;
-    [SerializeField] Sprite overlaySnD;
+    [SerializeField] Sprite[] overlayCtrl;
+    [SerializeField] Sprite[] overlayHP;
+    [SerializeField] Sprite[] overlaySnD;
 
     public Sprite GetBaseMap() { return mapBase; }
 
-    public Sprite GetCtrlOverlay() { return overlayCtrl; }
-    public Sprite GetHPOverlay() { return overlayHP; }
-    public Sprite GetSnDOverlay() { return overlaySnD; }
+    public Sprite[] GetCtrlOverlay() { return overlayCtrl; }
+    public Sprite[] GetHPOverlay() { return overlayHP; }
+    public Sprite[] GetSnDOverlay() { return overlaySnD; }
 
     public Sprite GetCalloutOverlay() { return overlayCallouts; }
 

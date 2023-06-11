@@ -27,13 +27,13 @@ public class MapImageManager : MonoBehaviour
             switch (mAppData.GameModeSelected.GetName())
             {
                 case "Hardpoint":
-                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetHPOverlay());
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetHPOverlay()[0]);
                     break;
                 case "Search & Destroy":
-                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetSnDOverlay());
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetSnDOverlay()[0]);
                     break;
                 case "Control":
-                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay());
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay()[0]);
                     break;
                 default:
                     break;
