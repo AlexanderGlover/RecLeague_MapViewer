@@ -13,12 +13,20 @@ public class MapImages
     [SerializeField] Sprite[] overlayCtrl;
     [SerializeField] Sprite[] overlayHP;
     [SerializeField] Sprite[] overlaySnD;
+    [SerializeField] Sprite[] overlayCTF;
+    [SerializeField] Sprite[] overlayKoTH;
+    [SerializeField] Sprite[] overlayOddball;
+    [SerializeField] Sprite[] overlayStrongholds;
 
     public Sprite GetBaseMap() { return mapBase; }
 
     public Sprite[] GetCtrlOverlay() { return overlayCtrl; }
     public Sprite[] GetHPOverlay() { return overlayHP; }
     public Sprite[] GetSnDOverlay() { return overlaySnD; }
+    public Sprite[] GetCTFOverlay() { return overlayCTF; }
+    public Sprite[] GetKoTHOverlay() { return overlayKoTH; }
+    public Sprite[] GetOddballOverlay() { return overlayOddball; }
+    public Sprite[] GetStrongholdsOverlay() { return overlayStrongholds; }
 
     public Sprite GetCalloutOverlay() { return overlayCallouts; }
 

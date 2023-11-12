@@ -35,6 +35,18 @@ public class MapImageManager : MonoBehaviour
                 case "Control":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay()[0]);
                     break;
+                case "Capture the Flag":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCTFOverlay()[0]);
+                    break;
+                case "King of the Hill":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetKoTHOverlay()[0]);
+                    break;
+                case "Oddball":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetOddballOverlay()[0]);
+                    break;
+                case "Strongholds":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetStrongholdsOverlay()[0]);
+                    break;
                 default:
                     break;
             }
