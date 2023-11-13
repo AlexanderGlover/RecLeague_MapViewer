@@ -58,9 +58,9 @@ public class PlayerToken : MonoBehaviour
         //Print location of pointer relative to middle & screen height (make sure image fills height)
         if(inptCtrl.GetKeyDown(KeybindingAction.KA_Select))
         {
-            //Debug.Log("Image Height: " + Screen.height);
-            //Debug.Log("Spawn Location: " + (Input.mousePosition.x - Screen.width / 2) + " " + (Input.mousePosition.y - Screen.height / 2));
-            //Debug.Log(Input.mousePosition - new Vector3(Screen.width/2, Screen.height/2, 0.0f));
+            Debug.Log("Image Height: " + Screen.height);
+            Debug.Log("Spawn Location: " + (Input.mousePosition.x - Screen.width / 2) + " " + (Input.mousePosition.y - Screen.height / 2));
+            Debug.Log(Input.mousePosition - new Vector3(Screen.width/2, Screen.height/2, 0.0f));
         }
 
 
