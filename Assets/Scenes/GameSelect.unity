@@ -496,7 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameDataStorage:
   - mName: Halo Infinite
-    mIsGameActive: 1
+    mIsGameActive: 0
     mLeagueIcon: {fileID: -1514211007, guid: 52c5f7dd527bacd4095a98ec507381f0, type: 3}
     mBannerImage: {fileID: 21300000, guid: 3d226464e492a35468850c6b6916b81a, type: 3}
     mMapSelectBackground: {fileID: 0}
@@ -1124,7 +1124,7 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
-      - mName: Invasion
+      - mName: Favela
         mCompetetive: 0
         mMapImages:
           mapBase: {fileID: 0}
@@ -1161,8 +1161,82 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Highrise
+        mCompetetive: 1
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Invasion
+        mCompetetive: 1
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Karachi
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1273,7 +1347,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Skidrow
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1310,7 +1384,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Sub Base
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1347,7 +1421,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Terminal
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1500,8 +1574,82 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Favela
+        mCompetetive: 1
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Highrise
+        mCompetetive: 1
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Invasion
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1538,7 +1686,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Karachi
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1649,7 +1797,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Skidrow
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1723,7 +1871,7 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Terminal
-        mCompetetive: 0
+        mCompetetive: 1
         mMapImages:
           mapBase: {fileID: 0}
           overlayCallouts: {fileID: 0}
@@ -1837,6 +1985,80 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Estate
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Favela
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Highrise
         mCompetetive: 0
         mMapImages:
           mapBase: {fileID: 0}
@@ -2280,6 +2502,104 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: -228, y: 54, z: 608}
             mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+    - mName: Favela
+      mCompetetive: 0
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: d5fd7e07a03b6524a907592ffecf381d, type: 3}
+        overlayCallouts: {fileID: 0}
+        overlayCtrl:
+        - {fileID: 21300000, guid: 66f78da68f0d50349b19b6a48d608cfb, type: 3}
+        - {fileID: 21300000, guid: 499e5c1ba238fa9419f446377b862b67, type: 3}
+        - {fileID: 21300000, guid: 7ead46b1c60bd40489d1ec67fc3816d0, type: 3}
+        overlayHP:
+        - {fileID: 21300000, guid: 42feaa3c6e1e9464581a8fd183e0dfdb, type: 3}
+        - {fileID: 21300000, guid: ea20c9ffd5e699344bf1de2f8c891a3a, type: 3}
+        - {fileID: 21300000, guid: 49377cdafe2cf1d4fbb93d90a7a1b42a, type: 3}
+        - {fileID: 21300000, guid: 1a59726a326564d489bf28b3bcc79209, type: 3}
+        - {fileID: 21300000, guid: b815b953573e027459c43eca51009d43, type: 3}
+        - {fileID: 21300000, guid: d0232e5f770b71342bc72bf0791fa358, type: 3}
+        overlaySnD:
+        - {fileID: 21300000, guid: a2bc22a3dc5c20a4fad942973ebef416, type: 3}
+        - {fileID: 21300000, guid: 63b3c06b7af87fa479ce230bd01b69d9, type: 3}
+        - {fileID: 21300000, guid: cb7cbcba5d0d6ef4ab869536ab2b35c6, type: 3}
+        overlayCTF: []
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 263, y: -67, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -188, y: 146, z: 608}
+            mSpawnDirectionVector: {x: 1, y: -0.5, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -188, y: 146, z: 608}
+            mSpawnDirectionVector: {x: 1, y: -0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 167, y: -141, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 263, y: -67, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -188, y: 146, z: 608}
+            mSpawnDirectionVector: {x: 1, y: -0.5, z: 0}
+    - mName: Highrise
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 28e124d646fe5004a9267670a4f5c801, type: 3}
+        overlayCallouts: {fileID: 0}
+        overlayCtrl:
+        - {fileID: 21300000, guid: bceb622b0434f1648af54cd906d9bab5, type: 3}
+        - {fileID: 21300000, guid: 541d07ccc937a204f8e55de66581279b, type: 3}
+        - {fileID: 21300000, guid: 7285e326b9520a5498b1394a8982ee71, type: 3}
+        overlayHP:
+        - {fileID: 21300000, guid: d8b96b88630872e4c87bdc0b2c1e1dcd, type: 3}
+        - {fileID: 21300000, guid: 24ab97fcb6c59544b96e9fd434504e93, type: 3}
+        - {fileID: 21300000, guid: 8bae07439aa231e4aa8b3dc4da4d48ab, type: 3}
+        - {fileID: 21300000, guid: 2b83fa1533450ed429c9516b163f9e8f, type: 3}
+        - {fileID: 21300000, guid: 8e0149a3325015242acf54963f43cbf2, type: 3}
+        - {fileID: 21300000, guid: 9e6d2270d176f98499f06dbe1fa2670d, type: 3}
+        overlaySnD:
+        - {fileID: 21300000, guid: 73ca3facb164d954eb71a8a7de5d437d, type: 3}
+        - {fileID: 21300000, guid: 9704101e745c162459fa89eb00ac06e4, type: 3}
+        - {fileID: 21300000, guid: e375c4a010cb75443a7b8a3a7beac501, type: 3}
+        overlayCTF: []
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -396, y: -164, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 400, y: 146, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 387, y: 11, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -372, y: -173, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -396, y: -164, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 400, y: 146, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
     - mName: Invasion
       mCompetetive: 1
       mMapImages:
@@ -2319,8 +2639,8 @@ MonoBehaviour:
             mSpawnPosition: {x: 295, y: 134, z: 608}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
           blueSpawn:
-            mSpawnPosition: {x: -116, y: -11, z: 536}
-            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+            mSpawnPosition: {x: -80, y: -60, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
         spawnSnD:
           mInitialized: 1
           redSpawn:
