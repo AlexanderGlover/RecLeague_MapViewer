@@ -38,10 +38,20 @@ public class SpawnPositions
     [SerializeField] SpawnPositionSet spawnCtrl;
     [SerializeField] SpawnPositionSet spawnHP;
     [SerializeField] SpawnPositionSet spawnSnD;
+    [SerializeField] SpawnPositionSet spawnCTF;
+    [SerializeField] SpawnPositionSet spawnKoTH;
+    [SerializeField] SpawnPositionSet spawnOddball;
+    [SerializeField] SpawnPositionSet spawnSlayer;
+    [SerializeField] SpawnPositionSet spawnStrongholds;
 
     public SpawnPositionSet GetCtrlSpawn() { return spawnCtrl; }
     public SpawnPositionSet GetHPSpawn() { return spawnHP; }
     public SpawnPositionSet GetSnDSpawn() { return spawnSnD; }
+    public SpawnPositionSet GetCTFSpawn() { return spawnCTF; }
+    public SpawnPositionSet GetKoTHSpawn() { return spawnKoTH; }
+    public SpawnPositionSet GetOddballSpawn() { return spawnOddball; }
+    public SpawnPositionSet GetSlayerSpawn() { return spawnSlayer; }
+    public SpawnPositionSet GetStrongholdsSpawn() { return spawnStrongholds; }
 }
 
 [System.Serializable]

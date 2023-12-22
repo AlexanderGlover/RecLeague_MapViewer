@@ -202,6 +202,16 @@ public class PlayerToken : MonoBehaviour
                     return appData.GameMapSelected.GetSpawnPositions().GetSnDSpawn();
                 case "Control":
                     return appData.GameMapSelected.GetSpawnPositions().GetCtrlSpawn();
+                case "Capture the Flag":
+                    return appData.GameMapSelected.GetSpawnPositions().GetCTFSpawn();
+                case "King of the Hill":
+                    return appData.GameMapSelected.GetSpawnPositions().GetKoTHSpawn();
+                case "Oddball":
+                    return appData.GameMapSelected.GetSpawnPositions().GetOddballSpawn();
+                case "Slayer":
+                    return appData.GameMapSelected.GetSpawnPositions().GetSlayerSpawn();
+                case "Strongholds":
+                    return appData.GameMapSelected.GetSpawnPositions().GetStrongholdsSpawn();
                 default:
                     break;
             }
