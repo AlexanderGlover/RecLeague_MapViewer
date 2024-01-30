@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 738062280}
   - component: {fileID: 738062278}
   - component: {fileID: 738062279}
+  - component: {fileID: 738062281}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -265,6 +266,50 @@ Transform:
   m_Father: {fileID: 1115650595}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738062281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738062277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &1115650591
 GameObject:
   m_ObjectHideFlags: 0
@@ -5929,18 +5974,18 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: da929f65da59669438a0cf2a11ec9078, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: d5b7e91b08c71c7418ab72a163ae5aea, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 90b14b79928f1bd4694103534a21660b, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 9ad8b39b1b1f1b7468323dafbec778ac, type: 3}
         - {fileID: 21300000, guid: 5368bd5f68e57e444928e0f52a307073, type: 3}
         - {fileID: 21300000, guid: c474f42d1dd50ad4bb0d5489db5c7501, type: 3}
         overlayHP:
-        - {fileID: 21300000, guid: 9028dfd191e91f5468e3fa4652b79e25, type: 3}
-        - {fileID: 21300000, guid: 68c13b87dc505b645bf83604ad0d609d, type: 3}
-        - {fileID: 21300000, guid: 0f40d6bc13b7e8646ac150919613e222, type: 3}
-        - {fileID: 21300000, guid: fea79cdd2c2c9874bbc8b1bc3af2b5dd, type: 3}
-        - {fileID: 21300000, guid: 2568b3948f1c898439410946c3737d45, type: 3}
-        - {fileID: 21300000, guid: 822a4e31e5b7a9e4b88d156339b563dd, type: 3}
+        - {fileID: 21300000, guid: 9bd3255406cb124458a172d76fa55481, type: 3}
+        - {fileID: 21300000, guid: 073afe2618df70a4691029224b30724a, type: 3}
+        - {fileID: 21300000, guid: bfe6a55be7738ac4bb32553ff7b566c9, type: 3}
+        - {fileID: 21300000, guid: 0d4d5e5fce8e60747b1ff54f81300e2c, type: 3}
+        - {fileID: 21300000, guid: 50686fb418c191e44a137cc7f836048d, type: 3}
+        - {fileID: 21300000, guid: b8996575fb06c7c4b9be8aa710e06f11, type: 3}
         overlaySnD:
         - {fileID: 21300000, guid: 5b5f0527865e72944927cfa9f5229353, type: 3}
         - {fileID: 21300000, guid: 79031899b6d4d594c8aea9d95ddf2cd5, type: 3}
@@ -6018,18 +6063,18 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: c98d7b77a7929224fa062a8498d0592e, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: e2a1e2afeeec8c04db9c868fc8b6323d, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 473ab3bf770169042992b5233c9fe92d, type: 3}
         overlayCtrl:
-        - {fileID: 21300000, guid: 773dfdba86d97264aa22f159de0d8d68, type: 3}
+        - {fileID: 21300000, guid: 4ca7104f32d547c478758531cf9a8d5d, type: 3}
         - {fileID: 21300000, guid: 71201c6a1e278fd41ab9dde9003b2c72, type: 3}
-        - {fileID: 21300000, guid: 00b19ca3c2e6c92419724da4fb083ab5, type: 3}
+        - {fileID: 21300000, guid: 41a80bef812ddca48ac803137417796d, type: 3}
         overlayHP:
-        - {fileID: 21300000, guid: 2609a9b88728c8143b02a645a2ab4530, type: 3}
-        - {fileID: 21300000, guid: ba9d7ea7e7741144c96d9deb11eea4b4, type: 3}
-        - {fileID: 21300000, guid: 7c7cbf88c4642434bb5c62556335338b, type: 3}
-        - {fileID: 21300000, guid: 52bae543b30598a4ead132e296989bfc, type: 3}
-        - {fileID: 21300000, guid: c6fbcb5759181c94d87f98989c1be56e, type: 3}
-        - {fileID: 21300000, guid: 4100f0a4c88d08e49961b486903e692f, type: 3}
+        - {fileID: 21300000, guid: 72ab8ed769f0b8445b5d42fe4491010a, type: 3}
+        - {fileID: 21300000, guid: fea2f9782d2ab7f4492258aa24c529c2, type: 3}
+        - {fileID: 21300000, guid: b44334d4644770c4f9b9c528f77eab3b, type: 3}
+        - {fileID: 21300000, guid: b90f0ccc10e80b6428584c0ea37041b8, type: 3}
+        - {fileID: 21300000, guid: a887e313a30e4284d808dbf2d4dba1f8, type: 3}
+        - {fileID: 21300000, guid: 5581a19ad3fe255478652f63438c9aab, type: 3}
         overlaySnD:
         - {fileID: 21300000, guid: 38af40eaf6a06f04f93041b859d30f60, type: 3}
         - {fileID: 21300000, guid: 927147c6c34c13a418127ec5714c8eb2, type: 3}
@@ -6463,7 +6508,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: fda4ed0b42572df4e9992cec0ef29809, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 4819ad801b4065a4d9c3a3bb0fa31d88, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: e6d7ebd118d852345ac7a9e0998aece6, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: ba5ad22c008a25d45aa6feac1db6864e, type: 3}
         - {fileID: 21300000, guid: 5fa686c2bc8c1db4a99805a5685b09ff, type: 3}
@@ -6552,18 +6597,18 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 335909ef01f96214bbeec3df46e01d80, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 82d3b3b3a5b0a794da8ae13da3f8c89a, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: af699c31a1445fb488d90fa2c8b9c0bc, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: d5c96cb0868781b49b6ddb42c0ae510c, type: 3}
         - {fileID: 21300000, guid: 07c9271952d5b1249b2dd68a37cb2ce8, type: 3}
         - {fileID: 21300000, guid: 7658edf29a0bcfc4aa493ad247ab6ca6, type: 3}
         overlayHP:
-        - {fileID: 21300000, guid: 8f8d947277b3ebe42bfe2aad9b582653, type: 3}
-        - {fileID: 21300000, guid: d0744ed7b59223147b7678bf38fea35e, type: 3}
-        - {fileID: 21300000, guid: 306505484ed0d084ab150daa405c9e74, type: 3}
-        - {fileID: 21300000, guid: d3bc6361bf5649d49941e3249187fa8d, type: 3}
-        - {fileID: 21300000, guid: cc5404fe72cfe1b40ad9c146296f58d4, type: 3}
-        - {fileID: 21300000, guid: 443b6245fbbc9574ab761f814e15ec0c, type: 3}
+        - {fileID: 21300000, guid: 539cc9e76b70f8648adbdca7f6148193, type: 3}
+        - {fileID: 21300000, guid: 3e2c1c3b444883840afbe60109e2be45, type: 3}
+        - {fileID: 21300000, guid: 157fab30a38ab314da8099c7df9bfeb1, type: 3}
+        - {fileID: 21300000, guid: 318b661c9fa36864a8c3ab71bcdd8e55, type: 3}
+        - {fileID: 21300000, guid: 742183b0fab584041806c219fa3ead2e, type: 3}
+        - {fileID: 21300000, guid: 2fb0ffd19a2199f40a1293827a88a28b, type: 3}
         overlaySnD:
         - {fileID: 21300000, guid: 416a20eb60c0f284fa673101ecd32f8a, type: 3}
         - {fileID: 21300000, guid: 854f1df63187a024d854a1c9696204ad, type: 3}
@@ -6641,18 +6686,18 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 2d01510894022ec4184588ceb23321fc, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: a0b7ec320292eee40a702f1b8bda4965, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 3a301a9bb760b974eb40fddbc7925279, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 90e9a8cb58f7b8744b3a532f969a67ee, type: 3}
         - {fileID: 21300000, guid: d2aae8df872996445baca114a9d205e8, type: 3}
         - {fileID: 21300000, guid: da5e31b7bc67b634e84c050a45b8347f, type: 3}
         overlayHP:
-        - {fileID: 21300000, guid: 9e0aaa736a5ec0e45bdbe4247a3af6c6, type: 3}
-        - {fileID: 21300000, guid: 7598132cff0b1944ca07d349f26d9d46, type: 3}
-        - {fileID: 21300000, guid: ddc558fa78f62b34fb1f6fce0ac8ffb8, type: 3}
-        - {fileID: 21300000, guid: 3594e4be3eeff50409fe20032731a269, type: 3}
-        - {fileID: 21300000, guid: ddb370938d0289641bad9fb0655e48d3, type: 3}
-        - {fileID: 21300000, guid: 8bad1faac42152842b57a4320f41bc62, type: 3}
+        - {fileID: 21300000, guid: 88b36d296cfe0c44d9a22e84ec384957, type: 3}
+        - {fileID: 21300000, guid: ed46da6335ea60242b368ad629ac3e36, type: 3}
+        - {fileID: 21300000, guid: 56c76df84bb8fdd49a2fe4b3e6025af7, type: 3}
+        - {fileID: 21300000, guid: 071fa9fd18d43a8489728146575d2348, type: 3}
+        - {fileID: 21300000, guid: 7670620feecbe9b4d95e702e35401c50, type: 3}
+        - {fileID: 21300000, guid: 663d9068acad0884ca3d98e06d52ec27, type: 3}
         overlaySnD:
         - {fileID: 21300000, guid: 63082fb197b38fe48890f58bab1ee2df, type: 3}
         - {fileID: 21300000, guid: aa0b5ee1e83e07b499fafc2fdeac66bd, type: 3}
