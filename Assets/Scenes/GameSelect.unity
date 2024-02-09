@@ -6395,7 +6395,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 4494e2e7134bf2a4c8b86f8c6d253059, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 61390d833e919764a906b1de81b83fbb, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 2006bf16ab7b7fe46a796b854cb330d2, type: 3}
