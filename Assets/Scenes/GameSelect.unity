@@ -625,6 +625,237 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Argyle
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Empyrean
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Forbidden
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: King of the Hill
       mAvailableMaps:
       - mName: Live Fire
@@ -707,6 +938,83 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Recharge
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Solitude
         mCompetetive: 0
         mMapImages:
           mapBase: {fileID: 0}
@@ -1249,6 +1557,83 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Solitude
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       - mName: Streets
         mCompetetive: 0
         mMapImages:
@@ -1482,6 +1867,83 @@ MonoBehaviour:
             blueSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      - mName: Solitude
+        mCompetetive: 0
+        mMapImages:
+          mapBase: {fileID: 0}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     mMaps:
     - mName: Aquarius
       mCompetetive: 1
@@ -1561,6 +2023,240 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    - mName: Argyle
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 60ab9adbd2ae5724e9d3167b5b747992, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 373afa51d1161cf44bbc7a2767588ca5, type: 3}
+        overlayCtrl: []
+        overlayHP: []
+        overlaySnD: []
+        overlayCTF:
+        - {fileID: 21300000, guid: 3e341e503cf1a90479f43712820a9a12, type: 3}
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -421, y: 2, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 421, y: 2, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnKoTH:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -288, y: 47, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 293, y: -41, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -256, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+    - mName: Empyrean
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: ec27d7867bc18c74c83fb6ccdf9290f1, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 3c2b024a295954a4aabba6aeb70ce457, type: 3}
+        overlayCtrl: []
+        overlayHP: []
+        overlaySnD: []
+        overlayCTF:
+        - {fileID: 21300000, guid: ef824adc4eae27d42bbe840bdda1b9fd, type: 3}
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -208, y: -88, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 208, y: -88, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnKoTH:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -288, y: 47, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 293, y: -41, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -256, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+    - mName: Forbidden
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 120d03ec3a2541e4aaa0bc52fb3d8374, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 0c222287ef374d945adb2fad6201b4bf, type: 3}
+        overlayCtrl: []
+        overlayHP: []
+        overlaySnD: []
+        overlayCTF:
+        - {fileID: 21300000, guid: a1409e6120940f143bdefea62e311ffb, type: 3}
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 142, y: 213, z: 608}
+            mSpawnDirectionVector: {x: 0, y: -1, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: -142, y: -213, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnKoTH:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -288, y: 47, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 293, y: -41, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -256, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
     - mName: Live Fire
       mCompetetive: 1
       mMapImages:
@@ -1571,12 +2267,12 @@ MonoBehaviour:
         overlaySnD: []
         overlayCTF: []
         overlayKoTH:
-        - {fileID: 21300000, guid: f5cc478a91da02242a70cbffb27081ab, type: 3}
-        - {fileID: 21300000, guid: dbd0ef51f1fddf74cbfbfedd99f07617, type: 3}
-        - {fileID: 21300000, guid: 89f1043a253427447a5a68d6ae16bc77, type: 3}
-        - {fileID: 21300000, guid: bb64c77ab6cf0824b939691a6486de98, type: 3}
-        - {fileID: 21300000, guid: 7c6d2e591f5866c4e9bf05c28e39167f, type: 3}
-        - {fileID: 21300000, guid: 9583d2c21276f6641a04efa278eaf8f1, type: 3}
+        - {fileID: 21300000, guid: 6b14328f6d9622a4ca0c892e5e11446f, type: 3}
+        - {fileID: 21300000, guid: a0222c3958de9754dbb713d8af5fadf9, type: 3}
+        - {fileID: 21300000, guid: c7a0cb57947ecd845af13099f894a4f4, type: 3}
+        - {fileID: 21300000, guid: b869edc32eb37014cae2aeada3637122, type: 3}
+        - {fileID: 21300000, guid: 9d1e2032786a15a4d99a5eec5d0bfc4a, type: 3}
+        - {fileID: 21300000, guid: 36c40acb80d0cb64fa66ad8d76eda8bd, type: 3}
         overlayOddball:
         - {fileID: 21300000, guid: be667ec4c5f6e7d40bb73e37c702de65, type: 3}
         overlayStrongholds:
@@ -1656,12 +2352,12 @@ MonoBehaviour:
         overlaySnD: []
         overlayCTF: []
         overlayKoTH:
-        - {fileID: 21300000, guid: 66b0249b3ef4fe44cb5a0303d9e43b02, type: 3}
-        - {fileID: 21300000, guid: 8c57fd51a64da9c4dbda3fdb3e111b68, type: 3}
-        - {fileID: 21300000, guid: 4ae1d33bd81185e4cb2e18409956f22e, type: 3}
-        - {fileID: 21300000, guid: 65d0aa794d063e0438644e1c78bb1e69, type: 3}
-        - {fileID: 21300000, guid: cd1704e61980f684caba14f5ce126787, type: 3}
-        - {fileID: 21300000, guid: 563f13dd65bcf8947b65d5e9e72e592a, type: 3}
+        - {fileID: 21300000, guid: 9da282266f97081498fde2e62248d3ce, type: 3}
+        - {fileID: 21300000, guid: 425afce142ad1ce449a330dd032886cf, type: 3}
+        - {fileID: 21300000, guid: 27302493b8078b34ebc99b101d17ad0c, type: 3}
+        - {fileID: 21300000, guid: 24c4efbf1fa4aea47bf65346e905b726, type: 3}
+        - {fileID: 21300000, guid: 2e51004058daa2541a52a639e92d7448, type: 3}
+        - {fileID: 21300000, guid: a2d0d2bd71ec6ae4cb5d8fd58dcdbf10, type: 3}
         overlayOddball:
         - {fileID: 21300000, guid: c3028e89a9dfb3249a2e768ceb79e236, type: 3}
         overlayStrongholds:
@@ -1809,6 +2505,90 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    - mName: Solitude
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 9bbc587bc75f8e94b93880631e684711, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 5c7fda91619352248828559bf4eef2b1, type: 3}
+        overlayCtrl: []
+        overlayHP: []
+        overlaySnD: []
+        overlayCTF: []
+        overlayKoTH:
+        - {fileID: 21300000, guid: ec9b5711a648bf246b49fce8d8211518, type: 3}
+        - {fileID: 21300000, guid: d1b123876cd2b514fbe6bd34d664bce1, type: 3}
+        - {fileID: 21300000, guid: e927b003721b9804c81cd31d9c320fc0, type: 3}
+        - {fileID: 21300000, guid: 0146dcc33b3fe4e49bbdc1789dda47af, type: 3}
+        - {fileID: 21300000, guid: df3b15d4c6bb55d4fafdc9f852adc394, type: 3}
+        - {fileID: 21300000, guid: d4c969b70b1b93b45b0c14895aed966e, type: 3}
+        overlayOddball: []
+        overlayStrongholds:
+        - {fileID: 21300000, guid: 18b1cba5ef36ca64eb1210e8fbd35256, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnKoTH:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: -288, y: 47, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 293, y: -41, z: 608}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -256, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnStrongholds:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -266, y: 121, z: 608}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 113, y: -197, z: 608}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
     mAssetsPath: 
   - mName: MWIII
     mIsGameActive: 1
