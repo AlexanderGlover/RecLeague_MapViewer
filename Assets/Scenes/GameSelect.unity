@@ -6694,7 +6694,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: ad4761b4c9ce9e6409b68bf61b0a5a8e, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 17e2d36ad8b4d8d478e50d4054ec024a, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 7c76a57f3bb0c7148a81d13611c8ac31, type: 3}
@@ -8201,7 +8201,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 08bc7f2be4f3fcc4ebdd279175ae1db8, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: c0e270eb3b839b44891a724b92457eae, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 249cecc9003af714d85b97f018c631c2, type: 3}
