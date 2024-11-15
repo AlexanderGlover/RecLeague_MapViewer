@@ -2759,7 +2759,7 @@ MonoBehaviour:
       mAvailableMaps: []
     mMaps:
     - mName: Derelict
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: a3b5a6ca65956364ea4a4c17e3b505b0, type: 3}
         overlayCallouts: {fileID: 0}
@@ -2848,7 +2848,7 @@ MonoBehaviour:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Lowtown
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: ebde078eed573d640a6cf057ed533368, type: 3}
         overlayCallouts: {fileID: 0}
@@ -2937,7 +2937,7 @@ MonoBehaviour:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Payback
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: ad5e02087eb8fa04f98d0f9028d314c1, type: 3}
         overlayCallouts: {fileID: 0}
@@ -3029,7 +3029,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 66a3981d2980807429cb61b81f5b4886, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 7ea3b07e09fe4cc4b9d34632aafcc537, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 35d99da5bf1d52a409c53f1c2da6a826, type: 3}
         - {fileID: 21300000, guid: 915154ac5357ce244aee3f478c5dd75d, type: 3}
@@ -3117,7 +3117,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 17c478235ac0dd24ca1a90b956bfbb8d, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 65a31f9937a68cf47b72b1224077558e, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: c9ad07c414e722844a49ea8a2096eb2a, type: 3}
         - {fileID: 21300000, guid: 4cd236dc0ea435a40ab82e05b3cdb1a1, type: 3}
@@ -3206,7 +3206,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 750724a5be3bb084298be5797dabf428, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 894c09b448242424ea9dc880ca8f4265, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 4388aaaff71776c49a3501f1009ffdde, type: 3}
         - {fileID: 21300000, guid: 14d2582bfb36edc479f319ef1c527a8e, type: 3}
@@ -3292,7 +3292,7 @@ MonoBehaviour:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Scud
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: 7709fe80f89ba1b4388e6bbfdd90290d, type: 3}
         overlayCallouts: {fileID: 0}
@@ -3384,7 +3384,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 7af9bff7d280379418e2eedb3bcb2b13, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 15a674a58bed6a741bc5cc74e315c275, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 2d3ce34d44134894cb33c2f01144e0bd, type: 3}
         - {fileID: 21300000, guid: bcc93be0bb64bd5438580354e8cf1d5d, type: 3}
@@ -3469,7 +3469,7 @@ MonoBehaviour:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Subsonic
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: aad240451e169da4190fb9c03726526f, type: 3}
         overlayCallouts: {fileID: 0}
@@ -3561,7 +3561,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 844cad71d2a27d44eb45dc52276b4265, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 8d5425b1f0ec2524d942641962980e6b, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 64aa22dc43cc5c040af6784ff20908ac, type: 3}
         - {fileID: 21300000, guid: 4b1a2ed10dfe00742a5ec74a899f289e, type: 3}
@@ -3646,7 +3646,7 @@ MonoBehaviour:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Vorkuta
-      mCompetetive: 1
+      mCompetetive: 0
       mMapImages:
         mapBase: {fileID: 21300000, guid: 5ab07a386ed7edf4c9ea2e3723b59c53, type: 3}
         overlayCallouts: {fileID: 0}
