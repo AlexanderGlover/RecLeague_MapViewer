@@ -2847,6 +2847,94 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    - mName: Hacienda
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 7bc266b4c5c8b75498fde282e12f4266, type: 3}
+        overlayCallouts: {fileID: 0}
+        overlayCtrl:
+        - {fileID: 21300000, guid: 47d9e90955db2c2499b8c789a4f1cc68, type: 3}
+        - {fileID: 21300000, guid: 50ba4c9b7d140ab479977c65afe9b4dd, type: 3}
+        - {fileID: 21300000, guid: 9307afaff97d437469764ac34bdd0714, type: 3}
+        overlayHP:
+        - {fileID: 21300000, guid: 0d9e653b3d1bfef4f9172f130f84647a, type: 3}
+        - {fileID: 21300000, guid: 1a8d585cfc2e65b46be93adffe7c8727, type: 3}
+        - {fileID: 21300000, guid: b6fbdbd0f0c29d14b9e9d3474f1bce7f, type: 3}
+        - {fileID: 21300000, guid: 822738df0be9b3f4d9cf8583f6a9e595, type: 3}
+        - {fileID: 21300000, guid: 0f5d3ba7f46d5344882355f6560c9138, type: 3}
+        overlaySnD:
+        - {fileID: 21300000, guid: 9ebdeacc7e38a6645990c82ec97c1844, type: 3}
+        - {fileID: 21300000, guid: 6516c596d487e4d48aa8e29ff4661a49, type: 3}
+        - {fileID: 21300000, guid: a25e841fbd5057f42acad9082dd9ffd6, type: 3}
+        overlayCTF: []
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -307, y: -19, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -307, y: -19, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: -307, y: -19, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnKoTH:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Lowtown
       mCompetetive: 0
       mMapImages:
@@ -3149,19 +3237,19 @@ MonoBehaviour:
         spawnHP:
           mInitialized: 1
           redSpawn:
+            mSpawnPosition: {x: 195, y: -203, z: 529}
+            mSpawnDirectionVector: {x: -0.1, y: 1, z: 0}
+          blueSpawn:
             mSpawnPosition: {x: -208, y: 156, z: 529}
             mSpawnDirectionVector: {x: 1, y: -0.1, z: 0}
-          blueSpawn:
-            mSpawnPosition: {x: 167, y: -188, z: 529}
-            mSpawnDirectionVector: {x: -0.1, y: 1, z: 0}
         spawnSnD:
           mInitialized: 1
           redSpawn:
             mSpawnPosition: {x: 169, y: -195, z: 529}
             mSpawnDirectionVector: {x: -0.2, y: 1, z: 0}
           blueSpawn:
-            mSpawnPosition: {x: 0, y: 0, z: 0}
-            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            mSpawnPosition: {x: -203, y: 173, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
         spawnCTF:
           mInitialized: 0
           redSpawn:
