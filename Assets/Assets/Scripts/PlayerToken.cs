@@ -47,6 +47,17 @@ public class PlayerToken : MonoBehaviour
         playerIconMask.value = LayerMask.GetMask("PlayerIcons");
         mGRaycaster.blockingMask = playerIconMask;
 
+        GameObject dataObj = GameObject.Find("DataObject");
+        if (dataObj != null)
+        {
+            ApplicationData appData = dataObj.GetComponent<ApplicationData>();
+
+            if(appData.GameModeSelected.GetName() == "Competitive")
+            {
+                mPlayersPerTeam = 3;
+            }
+        }
+
         GeneratePlayers();
 
         //GetInputController
@@ -212,6 +223,8 @@ public class PlayerToken : MonoBehaviour
                     return appData.GameMapSelected.GetSpawnPositions().GetSlayerSpawn();
                 case "Strongholds":
                     return appData.GameMapSelected.GetSpawnPositions().GetStrongholdsSpawn();
+                case "Competitive":
+                    return appData.GameMapSelected.GetSpawnPositions().GetCompetitiveSpawn();
                 default:
                     break;
             }

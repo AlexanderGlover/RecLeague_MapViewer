@@ -560,6 +560,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -618,6 +619,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -637,6 +646,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -695,6 +705,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -714,6 +732,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -772,6 +791,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -791,6 +818,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -849,6 +877,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -872,6 +908,7 @@ MonoBehaviour:
           - {fileID: 21300000, guid: b268e5f48c3901744bfe6e058edc58f4, type: 3}
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -930,6 +967,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -949,6 +994,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1007,6 +1053,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1026,6 +1080,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1084,6 +1139,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1105,6 +1168,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1163,6 +1227,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1182,6 +1254,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1240,6 +1313,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1259,6 +1340,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1317,6 +1399,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1338,6 +1428,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1396,6 +1487,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1415,6 +1514,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1473,6 +1573,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1492,6 +1600,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1550,6 +1659,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1569,6 +1686,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1627,6 +1745,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1646,6 +1772,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1704,6 +1831,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1725,6 +1860,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1783,6 +1919,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1802,6 +1946,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1860,6 +2005,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1879,6 +2032,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -1937,6 +2091,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -1956,6 +2118,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -2014,6 +2177,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -2035,6 +2206,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2100,6 +2272,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Argyle
       mCompetetive: 1
       mMapImages:
@@ -2113,6 +2293,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2178,6 +2359,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 113, y: -197, z: 608}
             mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Empyrean
       mCompetetive: 1
       mMapImages:
@@ -2191,6 +2380,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2256,6 +2446,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 113, y: -197, z: 608}
             mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Forbidden
       mCompetetive: 1
       mMapImages:
@@ -2269,6 +2467,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2334,6 +2533,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 113, y: -197, z: 608}
             mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Interference
       mCompetetive: 1
       mMapImages:
@@ -2347,6 +2554,7 @@ MonoBehaviour:
         overlayOddball: []
         overlayStrongholds:
         - {fileID: 21300000, guid: de48b0576c6f7194281ff85ba48797ce, type: 3}
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2412,6 +2620,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: -238, y: -107, z: 529}
             mSpawnDirectionVector: {x: 1, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Live Fire
       mCompetetive: 1
       mMapImages:
@@ -2432,6 +2648,7 @@ MonoBehaviour:
         - {fileID: 21300000, guid: be667ec4c5f6e7d40bb73e37c702de65, type: 3}
         overlayStrongholds:
         - {fileID: 21300000, guid: 431ab730462e6cb49811466c413a17ec, type: 3}
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2497,6 +2714,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 261, y: 80, z: 608}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Recharge
       mCompetetive: 1
       mMapImages:
@@ -2517,6 +2742,7 @@ MonoBehaviour:
         - {fileID: 21300000, guid: c3028e89a9dfb3249a2e768ceb79e236, type: 3}
         overlayStrongholds:
         - {fileID: 21300000, guid: d9fe01997d8628a43beae276edb5b8c6, type: 3}
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2582,6 +2808,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 23, y: 257, z: 608}
             mSpawnDirectionVector: {x: 0, y: -1, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Streets
       mCompetetive: 1
       mMapImages:
@@ -2595,6 +2829,7 @@ MonoBehaviour:
         overlayOddball:
         - {fileID: 21300000, guid: dbb4b0442a2a48c4ab0a450524c0e181, type: 3}
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2653,6 +2888,14 @@ MonoBehaviour:
             mSpawnPosition: {x: 293, y: -41, z: 608}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
         spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
           mInitialized: 0
           redSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -2679,6 +2922,7 @@ MonoBehaviour:
         overlayOddball: []
         overlayStrongholds:
         - {fileID: 21300000, guid: 18b1cba5ef36ca64eb1210e8fbd35256, type: 3}
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -2744,6 +2988,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 113, y: -197, z: 608}
             mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     mAssetsPath: 
   - mName: Black Ops 6
     mIsGameActive: 1
@@ -2782,6 +3034,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -2847,11 +3100,19 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Hacienda
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 7bc266b4c5c8b75498fde282e12f4266, type: 3}
-        overlayCallouts: {fileID: 0}
+        overlayCallouts: {fileID: 21300000, guid: 8c07998e305b24f42976ee8e74b65a57, type: 3}
         overlayCtrl:
         - {fileID: 21300000, guid: 47d9e90955db2c2499b8c789a4f1cc68, type: 3}
         - {fileID: 21300000, guid: 50ba4c9b7d140ab479977c65afe9b4dd, type: 3}
@@ -2870,6 +3131,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -2935,6 +3197,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Lowtown
       mCompetetive: 0
       mMapImages:
@@ -2959,6 +3229,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3024,6 +3295,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Payback
       mCompetetive: 0
       mMapImages:
@@ -3048,6 +3327,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3113,6 +3393,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Protocol
       mCompetetive: 1
       mMapImages:
@@ -3136,6 +3424,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3201,6 +3490,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Red Card
       mCompetetive: 1
       mMapImages:
@@ -3225,6 +3522,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3290,6 +3588,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Rewind
       mCompetetive: 1
       mMapImages:
@@ -3314,6 +3620,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3379,6 +3686,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Scud
       mCompetetive: 0
       mMapImages:
@@ -3403,6 +3718,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3468,6 +3784,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Skyline
       mCompetetive: 1
       mMapImages:
@@ -3491,6 +3815,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3556,6 +3881,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Subsonic
       mCompetetive: 0
       mMapImages:
@@ -3580,6 +3913,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3645,6 +3979,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Vault
       mCompetetive: 1
       mMapImages:
@@ -3668,6 +4010,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3733,6 +4076,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Vorkuta
       mCompetetive: 0
       mMapImages:
@@ -3757,6 +4108,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -3822,6 +4174,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     mAssetsPath: 
   - mName: MWIII
     mIsGameActive: 1
@@ -3843,6 +4203,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -3901,6 +4262,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -3921,6 +4290,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -3979,6 +4349,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -3998,6 +4376,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4056,6 +4435,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4075,6 +4462,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4133,6 +4521,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4152,6 +4548,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4210,6 +4607,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4229,6 +4634,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4287,6 +4693,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4306,6 +4720,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4364,6 +4779,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4383,6 +4806,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4441,6 +4865,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4460,6 +4892,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4518,6 +4951,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4537,6 +4978,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4595,6 +5037,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4614,6 +5064,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4672,6 +5123,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4691,6 +5150,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4749,6 +5209,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4768,6 +5236,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4826,6 +5295,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4845,6 +5322,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4903,6 +5381,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4922,6 +5408,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -4980,6 +5467,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -4999,6 +5494,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5057,6 +5553,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5076,6 +5580,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5134,6 +5639,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5153,6 +5666,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5211,6 +5725,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5230,6 +5752,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5288,6 +5811,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5309,6 +5840,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5367,6 +5899,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5387,6 +5927,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5445,6 +5986,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5467,6 +6016,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5525,6 +6075,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5544,6 +6102,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5602,6 +6161,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5621,6 +6188,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5679,6 +6247,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5698,6 +6274,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5756,6 +6333,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5775,6 +6360,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5833,6 +6419,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5852,6 +6446,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5910,6 +6505,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -5929,6 +6532,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -5987,6 +6591,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6006,6 +6618,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6064,6 +6677,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6083,6 +6704,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6141,6 +6763,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6160,6 +6790,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6218,6 +6849,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6237,6 +6876,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6295,6 +6935,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6314,6 +6962,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6372,6 +7021,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6391,6 +7048,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6449,6 +7107,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6468,6 +7134,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6526,6 +7193,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6545,6 +7220,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6603,6 +7279,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6622,6 +7306,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6680,6 +7365,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6702,6 +7395,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6760,6 +7454,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6779,6 +7481,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6837,6 +7540,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6856,6 +7567,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6914,6 +7626,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -6933,6 +7653,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -6991,6 +7712,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7010,6 +7739,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7068,6 +7798,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7087,6 +7825,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7145,6 +7884,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7164,6 +7911,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7222,6 +7970,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7241,6 +7997,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7299,6 +8056,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7318,6 +8083,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7376,6 +8142,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7395,6 +8169,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7453,6 +8228,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7472,6 +8255,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7530,6 +8314,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7549,6 +8341,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7607,6 +8400,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7626,6 +8427,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7684,6 +8486,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7703,6 +8513,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7761,6 +8572,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7780,6 +8599,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7838,6 +8658,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7857,6 +8685,7 @@ MonoBehaviour:
           overlayKoTH: []
           overlayOddball: []
           overlayStrongholds: []
+          overlayCompetitive: []
         mSpawnPositions:
           spawnCtrl:
             mInitialized: 0
@@ -7915,6 +8744,14 @@ MonoBehaviour:
               mSpawnPosition: {x: 0, y: 0, z: 0}
               mSpawnDirectionVector: {x: 0, y: 0, z: 0}
           spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
             mInitialized: 0
             redSpawn:
               mSpawnPosition: {x: 0, y: 0, z: 0}
@@ -7943,6 +8780,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -8008,6 +8846,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Afghan
       mCompetetive: 0
       mMapImages:
@@ -8032,6 +8878,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8097,6 +8944,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Derail
       mCompetetive: 0
       mMapImages:
@@ -8121,6 +8976,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8186,6 +9042,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Estate
       mCompetetive: 0
       mMapImages:
@@ -8210,6 +9074,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8275,6 +9140,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Favela
       mCompetetive: 0
       mMapImages:
@@ -8299,6 +9172,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8364,6 +9238,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Highrise
       mCompetetive: 1
       mMapImages:
@@ -8388,6 +9270,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8453,6 +9336,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Invasion
       mCompetetive: 1
       mMapImages:
@@ -8477,6 +9368,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8542,6 +9434,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Karachi
       mCompetetive: 1
       mMapImages:
@@ -8566,6 +9466,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8631,6 +9532,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Quarry
       mCompetetive: 0
       mMapImages:
@@ -8655,6 +9564,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8720,6 +9630,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Rio
       mCompetetive: 1
       mMapImages:
@@ -8741,6 +9659,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -8806,6 +9725,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Rundown
       mCompetetive: 0
       mMapImages:
@@ -8830,6 +9757,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8895,6 +9823,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Rust
       mCompetetive: 0
       mMapImages:
@@ -8919,6 +9855,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -8984,6 +9921,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Scrapyard
       mCompetetive: 0
       mMapImages:
@@ -9008,6 +9953,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9073,6 +10019,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Skidrow
       mCompetetive: 0
       mMapImages:
@@ -9097,6 +10051,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9162,6 +10117,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Sub Base
       mCompetetive: 1
       mMapImages:
@@ -9186,6 +10149,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9251,6 +10215,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Terminal
       mCompetetive: 0
       mMapImages:
@@ -9275,6 +10247,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9340,6 +10313,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Underpass
       mCompetetive: 0
       mMapImages:
@@ -9364,6 +10345,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9429,6 +10411,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Vista
       mCompetetive: 1
       mMapImages:
@@ -9447,6 +10437,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 0
@@ -9512,6 +10503,14 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
     - mName: Wasteland
       mCompetetive: 0
       mMapImages:
@@ -9536,6 +10535,7 @@ MonoBehaviour:
         overlayKoTH: []
         overlayOddball: []
         overlayStrongholds: []
+        overlayCompetitive: []
       mSpawnPositions:
         spawnCtrl:
           mInitialized: 1
@@ -9601,6 +10601,197 @@ MonoBehaviour:
           blueSpawn:
             mSpawnPosition: {x: 0, y: 0, z: 0}
             mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    mAssetsPath: 
+  - mName: Rocket League
+    mIsGameActive: 1
+    mLeagueIcon: {fileID: 21300000, guid: 3732690296160374a93e647b7b2e029f, type: 3}
+    mBannerImage: {fileID: 21300000, guid: b6e14bbd1aed1c84eb6562f29eb8a68d, type: 3}
+    mMapSelectBackground: {fileID: 0}
+    mGameModes:
+    - mName: Competitive
+      mAvailableMaps:
+      - mName: DFH Stadium
+        mCompetetive: 1
+        mMapImages:
+          mapBase: {fileID: 21300000, guid: 033fb361b7306e149a17235bb924e208, type: 3}
+          overlayCallouts: {fileID: 0}
+          overlayCtrl: []
+          overlayHP: []
+          overlaySnD: []
+          overlayCTF: []
+          overlayKoTH: []
+          overlayOddball: []
+          overlayStrongholds: []
+          overlayCompetitive: []
+        mSpawnPositions:
+          spawnCtrl:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnHP:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSnD:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCTF:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnKoTH:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnOddball:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnSlayer:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnStrongholds:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          spawnCompetitive:
+            mInitialized: 0
+            redSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+            blueSpawn:
+              mSpawnPosition: {x: 0, y: 0, z: 0}
+              mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+    mMaps:
+    - mName: DFH Stadium
+      mCompetetive: 1
+      mMapImages:
+        mapBase: {fileID: 21300000, guid: 033fb361b7306e149a17235bb924e208, type: 3}
+        overlayCallouts: {fileID: 0}
+        overlayCtrl: []
+        overlayHP: []
+        overlaySnD: []
+        overlayCTF: []
+        overlayKoTH: []
+        overlayOddball: []
+        overlayStrongholds: []
+        overlayCompetitive:
+        - {fileID: 21300000, guid: 02a9c2d0f56a4464b8e5df74a3b68ae3, type: 3}
+      mSpawnPositions:
+        spawnCtrl:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnHP:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSnD:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCTF:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnKoTH:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnOddball:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnSlayer:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnStrongholds:
+          mInitialized: 0
+          redSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 0, z: 0}
+            mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        spawnCompetitive:
+          mInitialized: 1
+          redSpawn:
+            mSpawnPosition: {x: 0, y: -163, z: 529}
+            mSpawnDirectionVector: {x: 0, y: 1, z: 0}
+          blueSpawn:
+            mSpawnPosition: {x: 0, y: 163, z: 529}
+            mSpawnDirectionVector: {x: 0, y: -1, z: 0}
     mAssetsPath: 
   GameSelectedIndex: -1
   GameModeSelected:
@@ -9622,6 +10813,7 @@ MonoBehaviour:
       overlayKoTH: []
       overlayOddball: []
       overlayStrongholds: []
+      overlayCompetitive: []
     mSpawnPositions:
       spawnCtrl:
         mInitialized: 0
@@ -9680,6 +10872,14 @@ MonoBehaviour:
           mSpawnPosition: {x: 0, y: 0, z: 0}
           mSpawnDirectionVector: {x: 0, y: 0, z: 0}
       spawnStrongholds:
+        mInitialized: 0
+        redSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+        blueSpawn:
+          mSpawnPosition: {x: 0, y: 0, z: 0}
+          mSpawnDirectionVector: {x: 0, y: 0, z: 0}
+      spawnCompetitive:
         mInitialized: 0
         redSpawn:
           mSpawnPosition: {x: 0, y: 0, z: 0}

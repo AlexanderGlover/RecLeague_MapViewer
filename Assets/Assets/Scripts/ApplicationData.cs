@@ -17,6 +17,8 @@ public class MapImages
     [SerializeField] Sprite[] overlayKoTH;
     [SerializeField] Sprite[] overlayOddball;
     [SerializeField] Sprite[] overlayStrongholds;
+    [SerializeField] Sprite[] overlayCompetitive;
+
 
     public Sprite GetBaseMap() { return mapBase; }
 
@@ -27,6 +29,8 @@ public class MapImages
     public Sprite[] GetKoTHOverlay() { return overlayKoTH; }
     public Sprite[] GetOddballOverlay() { return overlayOddball; }
     public Sprite[] GetStrongholdsOverlay() { return overlayStrongholds; }
+
+    public Sprite[] GetCompetitiveOverlay() { return overlayCompetitive; }
 
     public Sprite GetCalloutOverlay() { return overlayCallouts; }
 
@@ -43,6 +47,7 @@ public class SpawnPositions
     [SerializeField] SpawnPositionSet spawnOddball;
     [SerializeField] SpawnPositionSet spawnSlayer;
     [SerializeField] SpawnPositionSet spawnStrongholds;
+    [SerializeField] SpawnPositionSet spawnCompetitive;
 
     public SpawnPositionSet GetCtrlSpawn() { return spawnCtrl; }
     public SpawnPositionSet GetHPSpawn() { return spawnHP; }
@@ -52,6 +57,7 @@ public class SpawnPositions
     public SpawnPositionSet GetOddballSpawn() { return spawnOddball; }
     public SpawnPositionSet GetSlayerSpawn() { return spawnSlayer; }
     public SpawnPositionSet GetStrongholdsSpawn() { return spawnStrongholds; }
+    public SpawnPositionSet GetCompetitiveSpawn() { return spawnCompetitive; }
 }
 
 [System.Serializable]

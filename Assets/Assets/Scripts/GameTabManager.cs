@@ -95,6 +95,24 @@ public class GameTabManager : MonoBehaviour
                         i++;
                     }
                     break;
+                case 4:
+                    int j = -1;
+                    foreach (GameObject button in mButtons)
+                    {
+                        RectTransform rt = button.GetComponent<RectTransform>();
+                        Image img = button.GetComponent<Image>();
+
+                        ColorBlock cb = button.GetComponent<Button>().colors;
+
+                        rt.anchorMin = new Vector2(0.25f + (j * 0.25f), 0);
+                        rt.anchorMax = new Vector2(1 + ((j - 1) * 0.25f), 1);
+                        rt.pivot = new Vector2(0.5f, 0.5f);
+
+                        rt.localScale = new Vector3(1, 1, 1);
+                        rt.sizeDelta = new Vector2(0, 0);
+                        j++;
+                    }
+                    break;
                 default:
                     break;
             }

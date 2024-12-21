@@ -25,7 +25,14 @@ public class LoadMapButton : MonoBehaviour
     {
         mMapInfo = new MapInfo();
         mGameModeInfo = new GameModeInfo();
-        mNumPlayers = 4;
+        if (mGameModeInfo.GetName() == "Competitive")
+        {
+            mNumPlayers = 3;
+        } else
+        {
+            mNumPlayers = 4;
+        }
+        
 
         //Default Inactive
         transform.GetChild(0).GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.1f);
