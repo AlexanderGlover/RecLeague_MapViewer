@@ -119,6 +119,9 @@ public class MenuButtonFunctionality : MonoBehaviour
             case "King of the Hill":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetKoTHOverlay();
                 break;
+            case "Neutral Bomb":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetNeutralBombOverlay();
+                break;
             case "Oddball":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetOddballOverlay();
                 break;

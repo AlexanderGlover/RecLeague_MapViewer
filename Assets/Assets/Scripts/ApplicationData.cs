@@ -15,6 +15,7 @@ public class MapImages
     [SerializeField] Sprite[] overlaySnD;
     [SerializeField] Sprite[] overlayCTF;
     [SerializeField] Sprite[] overlayKoTH;
+    [SerializeField] Sprite[] overlayNeutralBomb;
     [SerializeField] Sprite[] overlayOddball;
     [SerializeField] Sprite[] overlayStrongholds;
     [SerializeField] Sprite[] overlayCompetitive;
@@ -27,9 +28,9 @@ public class MapImages
     public Sprite[] GetSnDOverlay() { return overlaySnD; }
     public Sprite[] GetCTFOverlay() { return overlayCTF; }
     public Sprite[] GetKoTHOverlay() { return overlayKoTH; }
+    public Sprite[] GetNeutralBombOverlay() { return overlayNeutralBomb; }
     public Sprite[] GetOddballOverlay() { return overlayOddball; }
     public Sprite[] GetStrongholdsOverlay() { return overlayStrongholds; }
-
     public Sprite[] GetCompetitiveOverlay() { return overlayCompetitive; }
 
     public Sprite GetCalloutOverlay() { return overlayCallouts; }
@@ -44,6 +45,7 @@ public class SpawnPositions
     [SerializeField] SpawnPositionSet spawnSnD;
     [SerializeField] SpawnPositionSet spawnCTF;
     [SerializeField] SpawnPositionSet spawnKoTH;
+    [SerializeField] SpawnPositionSet spawnNeutralBomb;
     [SerializeField] SpawnPositionSet spawnOddball;
     [SerializeField] SpawnPositionSet spawnSlayer;
     [SerializeField] SpawnPositionSet spawnStrongholds;
@@ -54,6 +56,7 @@ public class SpawnPositions
     public SpawnPositionSet GetSnDSpawn() { return spawnSnD; }
     public SpawnPositionSet GetCTFSpawn() { return spawnCTF; }
     public SpawnPositionSet GetKoTHSpawn() { return spawnKoTH; }
+    public SpawnPositionSet GetNeutralBombSpawn() { return spawnNeutralBomb; }
     public SpawnPositionSet GetOddballSpawn() { return spawnOddball; }
     public SpawnPositionSet GetSlayerSpawn() { return spawnSlayer; }
     public SpawnPositionSet GetStrongholdsSpawn() { return spawnStrongholds; }

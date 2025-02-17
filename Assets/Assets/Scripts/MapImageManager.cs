@@ -41,6 +41,9 @@ public class MapImageManager : MonoBehaviour
                 case "King of the Hill":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetKoTHOverlay()[0]);
                     break;
+                case "Neutral Bomb":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetNeutralBombOverlay()[0]);
+                    break;
                 case "Oddball":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetOddballOverlay()[0]);
                     break;

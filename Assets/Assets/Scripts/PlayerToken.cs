@@ -217,6 +217,8 @@ public class PlayerToken : MonoBehaviour
                     return appData.GameMapSelected.GetSpawnPositions().GetCTFSpawn();
                 case "King of the Hill":
                     return appData.GameMapSelected.GetSpawnPositions().GetKoTHSpawn();
+                case "Neutral Bomb":
+                    return appData.GameMapSelected.GetSpawnPositions().GetNeutralBombSpawn();
                 case "Oddball":
                     return appData.GameMapSelected.GetSpawnPositions().GetOddballSpawn();
                 case "Slayer":
