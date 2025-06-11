@@ -50,6 +50,9 @@ public class MapImageManager : MonoBehaviour
                 case "Strongholds":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetStrongholdsOverlay()[0]);
                     break;
+                case "Uplink":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetUplinkOverlay()[0]);
+                    break;
                 case "Competitive":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCompetitiveOverlay()[0]);
                     break;

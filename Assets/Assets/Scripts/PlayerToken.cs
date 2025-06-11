@@ -225,6 +225,8 @@ public class PlayerToken : MonoBehaviour
                     return appData.GameMapSelected.GetSpawnPositions().GetSlayerSpawn();
                 case "Strongholds":
                     return appData.GameMapSelected.GetSpawnPositions().GetStrongholdsSpawn();
+                case "Uplink":
+                    return appData.GameMapSelected.GetSpawnPositions().GetUplinkSpawn();
                 case "Competitive":
                     return appData.GameMapSelected.GetSpawnPositions().GetCompetitiveSpawn();
                 default:

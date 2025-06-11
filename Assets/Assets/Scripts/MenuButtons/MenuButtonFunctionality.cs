@@ -128,6 +128,9 @@ public class MenuButtonFunctionality : MonoBehaviour
             case "Strongholds":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetStrongholdsOverlay();
                 break;
+            case "Uplink":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetUplinkOverlay();
+                break;
             case "Competitive":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetCompetitiveOverlay();
                 break;
