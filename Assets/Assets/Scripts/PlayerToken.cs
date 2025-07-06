@@ -74,6 +74,12 @@ public class PlayerToken : MonoBehaviour
             Debug.Log(Input.mousePosition - new Vector3(Screen.width/2, Screen.height/2, 0.0f));
         }
 
+        //Print Key being held down 
+        if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo))
+        {
+            Debug.Log("Control Z has been hit");
+        }
+
 
         Vector3 relativeMousePosition = Input.mousePosition - new Vector3(Screen.width / 2, Screen.height / 2, 0.0f);
 

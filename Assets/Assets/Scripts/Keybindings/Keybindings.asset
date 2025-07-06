@@ -41,7 +41,7 @@ MonoBehaviour:
   - keybindingAction: 5
     keyCode: 122
     modifierCtrl: 1
-    modifierAlt: 0
+    modifierAlt: 1
     modifierShift: 0
   - keybindingAction: 6
     keyCode: 122
@@ -51,5 +51,5 @@ MonoBehaviour:
   - keybindingAction: 7
     keyCode: 122
     modifierCtrl: 1
-    modifierAlt: 1
+    modifierAlt: 0
     modifierShift: 0

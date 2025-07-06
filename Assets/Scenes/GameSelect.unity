@@ -5188,26 +5188,26 @@ MonoBehaviour:
         spawnCtrl:
           mInitialized: 1
           redSpawn:
-            mSpawnPosition: {x: -307, y: -19, z: 529}
-            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+            mSpawnPosition: {x: -296, y: -12, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
           blueSpawn:
-            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnPosition: {x: 305, y: -55, z: 529}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
         spawnHP:
           mInitialized: 1
           redSpawn:
-            mSpawnPosition: {x: -307, y: -19, z: 529}
-            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+            mSpawnPosition: {x: -296, y: -12, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
           blueSpawn:
-            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnPosition: {x: 305, y: -55, z: 529}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
         spawnSnD:
           mInitialized: 1
           redSpawn:
-            mSpawnPosition: {x: -307, y: -19, z: 529}
-            mSpawnDirectionVector: {x: 1, y: 0.5, z: 0}
+            mSpawnPosition: {x: -296, y: -12, z: 529}
+            mSpawnDirectionVector: {x: 1, y: 0, z: 0}
           blueSpawn:
-            mSpawnPosition: {x: 331, y: -71, z: 529}
+            mSpawnPosition: {x: 305, y: -55, z: 529}
             mSpawnDirectionVector: {x: -1, y: 0, z: 0}
         spawnCTF:
           mInitialized: 0
