@@ -53,3 +53,8 @@ MonoBehaviour:
     modifierCtrl: 1
     modifierAlt: 0
     modifierShift: 0
+  - keybindingAction: 8
+    keyCode: 122
+    modifierCtrl: 1
+    modifierAlt: 0
+    modifierShift: 1

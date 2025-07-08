@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Paintable : MonoBehaviour
 {
+    private InputController inptCtrl;
     public GameObject Brush;
     public float BrushSize = 0.0001f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //GetInputController
+        inptCtrl = GameObject.Find("InputObject").GetComponent<InputController>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,9 @@ public class Paintable : MonoBehaviour
                 var go = Instantiate(Brush, new Vector3(hit.point.x, hit.point.y, -1.0f), Quaternion.identity, transform);
                 go.transform.localScale = Vector3.one * BrushSize;
                 go.transform.rotation = rot;
+
+                // Push the instantiated brush object onto the undo stack
+                UndoManager.PushDrawEvent(go);
             }
         }
     }

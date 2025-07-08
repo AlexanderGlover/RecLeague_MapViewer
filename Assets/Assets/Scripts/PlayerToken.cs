@@ -74,12 +74,32 @@ public class PlayerToken : MonoBehaviour
             Debug.Log(Input.mousePosition - new Vector3(Screen.width/2, Screen.height/2, 0.0f));
         }
 
-        //Print Key being held down 
-        if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo))
+        
+
+        if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo) && UndoManager.undoMoveStack.Count > 0)
         {
             Debug.Log("Control Z has been hit");
+            UndoMove lastEvent = UndoManager.PopMoveEvent();
+            if (lastEvent.Object != null)
+            {
+                lastEvent.Object.transform.localPosition = lastEvent.PreviousPosition;
+            }
         }
 
+        // Undo paint logic
+        if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo_Draw))
+        {
+            Debug.Log("Undo Draw has been hit");
+            Debug.Log("Undo Draw Stack Count: " + UndoManager.undoDrawStack.Count);
+            if (UndoManager.undoDrawStack.Count > 0)
+            {
+                // Pop the last drawing object from the stack
+                GameObject lastDrawing = UndoManager.PopDrawEvent();
+
+                // Destroy the drawing object
+                Destroy(lastDrawing);
+            }
+        }
 
         Vector3 relativeMousePosition = Input.mousePosition - new Vector3(Screen.width / 2, Screen.height / 2, 0.0f);
 
@@ -102,9 +122,14 @@ public class PlayerToken : MonoBehaviour
                 if (result.gameObject.tag == "PlayerObject")
                 {
                     mSelectedObject = result.gameObject;
+
+                    // Push the current position of the object onto the global undo stack
+                    UndoManager.PushMoveEvent(new UndoMove(mSelectedObject, mSelectedObject.transform.localPosition));
+
                     offset = relativeMousePosition - mSelectedObject.transform.localPosition;
 
                     mSelectObjectMode = inptCtrl.GetKey(KeybindingAction.KA_Select) ? 0 : 1;
+
                 }
             }
         }

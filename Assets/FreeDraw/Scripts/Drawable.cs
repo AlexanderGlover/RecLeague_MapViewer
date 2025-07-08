@@ -227,6 +227,8 @@ namespace FreeDraw
                     // Use whatever function the current brush is
                     if(drawDown)
                     {
+                        GameObject drawingObject = CreateDrawingObject(mouse_world_position, Pen_Colour, Pen_Width);
+                        UndoManager.PushDrawEvent(drawingObject);
                         current_brush(mouse_world_position);
                     }
                     else
@@ -402,5 +404,16 @@ namespace FreeDraw
         {
             fcp.gameObject.SetActive(forceState);
         }
+
+        private GameObject CreateDrawingObject(Vector2 position, Color color, int width)
+            {
+                // Example method to create a drawing object (e.g., brush stroke)
+                GameObject drawingObject = new GameObject("DrawingObject");
+                drawingObject.transform.position = position;
+                SpriteRenderer renderer = drawingObject.AddComponent<SpriteRenderer>();
+                renderer.color = color;
+                renderer.size = new Vector2(width, width);
+                return drawingObject;
+            }
     }
 }
