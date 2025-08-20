@@ -78,26 +78,10 @@ public class PlayerToken : MonoBehaviour
 
         if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo) && UndoManager.undoMoveStack.Count > 0)
         {
-            Debug.Log("Control Z has been hit");
             UndoMove lastEvent = UndoManager.PopMoveEvent();
             if (lastEvent.Object != null)
             {
                 lastEvent.Object.transform.localPosition = lastEvent.PreviousPosition;
-            }
-        }
-
-        // Undo paint logic
-        if (inptCtrl.GetKeyDown(KeybindingAction.KA_Undo_Draw))
-        {
-            Debug.Log("Undo Draw has been hit");
-            Debug.Log("Undo Draw Stack Count: " + UndoManager.undoDrawStack.Count);
-            if (UndoManager.undoDrawStack.Count > 0)
-            {
-                // Pop the last drawing object from the stack
-                GameObject lastDrawing = UndoManager.PopDrawEvent();
-
-                // Destroy the drawing object
-                Destroy(lastDrawing);
             }
         }
 

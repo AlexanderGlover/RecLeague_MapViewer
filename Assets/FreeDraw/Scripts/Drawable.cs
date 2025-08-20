@@ -12,6 +12,12 @@ namespace FreeDraw
     // 2. Set the drawing_layers  to use in the raycast
     // 3. Attach a 2D collider (like a Box Collider 2D) to this sprite
     // 4. Hold down left mouse to draw on this texture!
+    public class StrokeUndo
+    {
+        public List<int> pixelIndices = new List<int>();
+        public List<Color32> previousColors = new List<Color32>();
+    }
+
     public class Drawable : MonoBehaviour
     {
         //Testing Graphics Raycasts
@@ -24,6 +30,8 @@ namespace FreeDraw
         GameObject inputCtrlObj;
         InputController inputCtrl;
 
+        // Track the current stroke being drawn
+        private StrokeUndo currentStroke = null;
 
         // PEN COLOUR
         public static Color Pen_Colour = Color.yellow;     // Change these to change the default drawing settings
@@ -58,16 +66,16 @@ namespace FreeDraw
         bool mouse_was_previously_held_down = false;
         bool no_drawing_on_current_drag = false;
 
-//################################################################################################
+        //################################################################################################
         //Colour picker implementation to live-change mouse colour
         public FlexibleColorPicker fcp;
 
-//################################################################################################
+        //################################################################################################
 
 
 
-//////////////////////////////////////////////////////////////////////////////
-// BRUSH TYPES. Implement your own here
+        //////////////////////////////////////////////////////////////////////////////
+        // BRUSH TYPES. Implement your own here
 
 
         // When you want to make your own type of brush effects,
@@ -107,14 +115,14 @@ namespace FreeDraw
             // 3. Actually apply the changes we marked earlier
             // Done here to be more efficient
             ApplyMarkedPixelChanges();
-            
+
             // 4. If dragging, update where we were previously
             previous_drag_position = pixel_pos;
         }
 
 
 
-        
+
         // Default brush type. Has width and colour.
         // Pass in a point in WORLD coordinates
         // Changes the surrounding pixels of the world_point to the static pen_colour
@@ -149,12 +157,12 @@ namespace FreeDraw
             if (previous_drag_position == Vector2.zero)
             {
                 // If this is the first time we've ever dragged on this image, simply colour the pixels at our mouse position
-                MarkPixelsToColour(pixel_pos, Pen_Width*5, new Color(255f, 255f, 255f, 0f));
+                MarkPixelsToColour(pixel_pos, Pen_Width * 5, new Color(255f, 255f, 255f, 0f));
             }
             else
             {
                 // Colour in a line from where we were on the last update call
-                ColourBetween(previous_drag_position, pixel_pos, Pen_Width*5, new Color(255f, 255f, 255f, 0f));
+                ColourBetween(previous_drag_position, pixel_pos, Pen_Width * 5, new Color(255f, 255f, 255f, 0f));
             }
             ApplyMarkedPixelChanges();
 
@@ -201,6 +209,7 @@ namespace FreeDraw
                 // Check if the current mouse position overlaps our image
                 Collider2D hit = Physics2D.OverlapPoint(mouse_world_position, Drawing_Layers.value);
 
+                currentStroke = new StrokeUndo();
                 /*
                 // ---- Testing Graphics Raycast Substitute
                 //Set up the new Pointer Event
@@ -225,10 +234,8 @@ namespace FreeDraw
                 {
                     // We're over the texture we're drawing on!
                     // Use whatever function the current brush is
-                    if(drawDown)
+                    if (drawDown)
                     {
-                        GameObject drawingObject = CreateDrawingObject(mouse_world_position, Pen_Colour, Pen_Width);
-                        UndoManager.PushDrawEvent(drawingObject);
                         current_brush(mouse_world_position);
                     }
                     else
@@ -252,10 +259,31 @@ namespace FreeDraw
             // Mouse is released
             else if (!drawDown && !eraseDown)
             {
+                if (currentStroke != null)
+                {
+                    Debug.Log("Current stroke ended with " + currentStroke.pixelIndices.Count + " pixels changed.");
+                    UndoManager.undoDrawStack.Push(currentStroke);
+                    currentStroke = null;
+                    drawable_texture.Apply();
+                    Debug.Log("Mouse released, undoDrawStack count: " + UndoManager.undoDrawStack.Count);
+                }
+
                 previous_drag_position = Vector2.zero;
                 no_drawing_on_current_drag = false;
             }
             mouse_was_previously_held_down = drawDown || eraseDown;
+
+
+            // Undo paint logic
+            if (inputCtrl.GetKeyDown(KeybindingAction.KA_Undo_Draw))
+            {
+                Debug.Log("Undo Draw has been hit");
+
+                if (UndoManager.undoDrawStack.Count > 0)
+                {
+                    UndoLastStroke();
+                }
+            }
         }
 
 
@@ -278,8 +306,6 @@ namespace FreeDraw
                 MarkPixelsToColour(cur_position, width, color);
             }
         }
-
-
 
 
 
@@ -311,33 +337,12 @@ namespace FreeDraw
             if (array_pos > cur_colors.Length || array_pos < 0)
                 return;
 
-            cur_colors[array_pos] = color;
+            // cur_colors[array_pos] = color;
+            SetPixelWithUndo(x, y, color);
         }
         public void ApplyMarkedPixelChanges()
         {
             drawable_texture.SetPixels32(cur_colors);
-            drawable_texture.Apply();
-        }
-
-
-        // Directly colours pixels. This method is slower than using MarkPixelsToColour then using ApplyMarkedPixelChanges
-        // SetPixels32 is far faster than SetPixel
-        // Colours both the center pixel, and a number of pixels around the center pixel based on pen_thickness (pen radius)
-        public void ColourPixels(Vector2 center_pixel, int pen_thickness, Color color_of_pen)
-        {
-            // Figure out how many pixels we need to colour in each direction (x and y)
-            int center_x = (int)center_pixel.x;
-            int center_y = (int)center_pixel.y;
-            //int extra_radius = Mathf.Min(0, pen_thickness - 2);
-
-            for (int x = center_x - pen_thickness; x <= center_x + pen_thickness; x++)
-            {
-                for (int y = center_y - pen_thickness; y <= center_y + pen_thickness; y++)
-                {
-                    drawable_texture.SetPixel(x, y, color_of_pen);
-                }
-            }
-
             drawable_texture.Apply();
         }
 
@@ -371,7 +376,7 @@ namespace FreeDraw
         }
 
 
-        
+
         void Awake()
         {
             //GetInputController
@@ -405,15 +410,32 @@ namespace FreeDraw
             fcp.gameObject.SetActive(forceState);
         }
 
-        private GameObject CreateDrawingObject(Vector2 position, Color color, int width)
+        public void UndoLastStroke()
+        {
+            var stroke = UndoManager.undoDrawStack.Pop();
+            Debug.Log("Undoing last stroke with " + stroke.pixelIndices.Count + " pixels changed.");
+            for (int i = 0; i < stroke.pixelIndices.Count; i++)
             {
-                // Example method to create a drawing object (e.g., brush stroke)
-                GameObject drawingObject = new GameObject("DrawingObject");
-                drawingObject.transform.position = position;
-                SpriteRenderer renderer = drawingObject.AddComponent<SpriteRenderer>();
-                renderer.color = color;
-                renderer.size = new Vector2(width, width);
-                return drawingObject;
+                int idx = stroke.pixelIndices[i];
+                int x = idx % drawable_texture.width;
+                int y = idx / drawable_texture.width;
+                drawable_texture.SetPixel(x, y, stroke.previousColors[i]);
             }
+            drawable_texture.Apply();
+        }
+
+        void SetPixelWithUndo(int x, int y, Color32 newColor)
+        {
+            int idx = y * drawable_texture.width + x;
+            if (currentStroke != null && !currentStroke.pixelIndices.Contains(idx))
+            {
+                currentStroke.pixelIndices.Add(idx);
+                currentStroke.previousColors.Add(drawable_texture.GetPixel(x, y));
+            }
+            if (idx >= 0 && idx < cur_colors.Length)
+                cur_colors[idx] = newColor;
+            drawable_texture.SetPixel(x, y, newColor);
+        }
+        
     }
 }
