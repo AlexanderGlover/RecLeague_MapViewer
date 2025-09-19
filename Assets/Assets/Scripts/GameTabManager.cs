@@ -140,7 +140,29 @@ public class GameTabManager : MonoBehaviour
                         rt.sizeDelta = new Vector2(0, 0);
                         k++;
                     }
-                    break;             
+                    break;
+                case 8:
+                    for (int l = 0; l < mButtons.Count; l++)
+                    {
+                        RectTransform rt = mButtons[l].GetComponent<RectTransform>();
+
+                        // Row: 0 for top row (first 4), 1 for bottom row (last 4)
+                        int row = l / 4;
+                        int col = l % 4;
+
+                        float anchorMinX = 0.25f * col;
+                        float anchorMaxX = 0.25f * (col + 1);
+                        float anchorMinY = row == 0 ? 0.5f : 0f;
+                        float anchorMaxY = row == 0 ? 1f : 0.5f;
+
+                        rt.anchorMin = new Vector2(anchorMinX, anchorMinY);
+                        rt.anchorMax = new Vector2(anchorMaxX, anchorMaxY);
+                        rt.pivot = new Vector2(0.5f, 0.5f);
+
+                        rt.localScale = new Vector3(1, 1, 1);
+                        rt.sizeDelta = new Vector2(0, 0);
+                    }
+                    break;
                 default:
                     break;
             }
