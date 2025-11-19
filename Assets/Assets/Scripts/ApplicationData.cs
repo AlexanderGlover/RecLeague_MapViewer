@@ -13,6 +13,7 @@ public class MapImages
     [SerializeField] Sprite[] overlayCtrl;
     [SerializeField] Sprite[] overlayHP;
     [SerializeField] Sprite[] overlaySnD;
+    [SerializeField] Sprite[] overlayOverload;
     [SerializeField] Sprite[] overlayCTF;
     [SerializeField] Sprite[] overlayKoTH;
     [SerializeField] Sprite[] overlayNeutralBomb;
@@ -27,6 +28,7 @@ public class MapImages
     public Sprite[] GetCtrlOverlay() { return overlayCtrl; }
     public Sprite[] GetHPOverlay() { return overlayHP; }
     public Sprite[] GetSnDOverlay() { return overlaySnD; }
+    public Sprite[] GetOverloadOverlay() { return overlayOverload; }
     public Sprite[] GetCTFOverlay() { return overlayCTF; }
     public Sprite[] GetKoTHOverlay() { return overlayKoTH; }
     public Sprite[] GetNeutralBombOverlay() { return overlayNeutralBomb; }
@@ -45,6 +47,7 @@ public class SpawnPositions
     [SerializeField] SpawnPositionSet spawnCtrl;
     [SerializeField] SpawnPositionSet spawnHP;
     [SerializeField] SpawnPositionSet spawnSnD;
+    [SerializeField] SpawnPositionSet spawnOverload;
     [SerializeField] SpawnPositionSet spawnCTF;
     [SerializeField] SpawnPositionSet spawnKoTH;
     [SerializeField] SpawnPositionSet spawnNeutralBomb;
@@ -57,6 +60,7 @@ public class SpawnPositions
     public SpawnPositionSet GetCtrlSpawn() { return spawnCtrl; }
     public SpawnPositionSet GetHPSpawn() { return spawnHP; }
     public SpawnPositionSet GetSnDSpawn() { return spawnSnD; }
+    public SpawnPositionSet GetOverloadSpawn() { return spawnOverload; }
     public SpawnPositionSet GetCTFSpawn() { return spawnCTF; }
     public SpawnPositionSet GetKoTHSpawn() { return spawnKoTH; }
     public SpawnPositionSet GetNeutralBombSpawn() { return spawnNeutralBomb; }

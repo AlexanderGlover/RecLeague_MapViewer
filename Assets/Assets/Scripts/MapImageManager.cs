@@ -35,6 +35,9 @@ public class MapImageManager : MonoBehaviour
                 case "Control":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay()[0]);
                     break;
+                case "Overload":
+                    SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetOverloadOverlay()[0]);
+                    break;
                 case "Capture the Flag":
                     SetObjectiveOverlay(mAppData.GameMapSelected.GetMapImages().GetCTFOverlay()[0]);
                     break;

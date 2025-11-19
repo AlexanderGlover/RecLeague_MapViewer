@@ -113,6 +113,9 @@ public class MenuButtonFunctionality : MonoBehaviour
             case "Control":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetCtrlOverlay();
                 break;
+            case "Overload":
+                overlayObjective = mAppData.GameMapSelected.GetMapImages().GetOverloadOverlay();
+                break;
             case "Capture the Flag":
                 overlayObjective = mAppData.GameMapSelected.GetMapImages().GetCTFOverlay();
                 break;

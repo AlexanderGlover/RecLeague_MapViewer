@@ -228,6 +228,8 @@ public class PlayerToken : MonoBehaviour
                     return appData.GameMapSelected.GetSpawnPositions().GetSnDSpawn();
                 case "Control":
                     return appData.GameMapSelected.GetSpawnPositions().GetCtrlSpawn();
+                case "Overload": 
+                    return appData.GameMapSelected.GetSpawnPositions().GetOverloadSpawn();
                 case "Capture the Flag":
                     return appData.GameMapSelected.GetSpawnPositions().GetCTFSpawn();
                 case "King of the Hill":
