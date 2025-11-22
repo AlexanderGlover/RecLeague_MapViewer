@@ -3043,7 +3043,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 6254f2d20cfb756478a4e6fdb527d468, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 6254f2d20cfb756478a4e6fdb527d468, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: bdb206cc804a5f24b8a6652b88d16695, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: acfbbb630c1c3ec40a7e9ee061bac224, type: 3}
@@ -3165,7 +3165,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 30b2193bfc3849a4797379e3ebe2a286, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 30b2193bfc3849a4797379e3ebe2a286, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: f50b597458e78654897c6df0b908e84d, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 7540098a2d319264188a1a8c877758b3, type: 3}
@@ -3287,7 +3287,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 4e540cbe868560f4091fa5a8c04f7893, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 4e540cbe868560f4091fa5a8c04f7893, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 9c31eec114c5373418f9c69494ea3661, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 8e7e508d5dea5b24f83d49170297c9fc, type: 3}
@@ -3409,7 +3409,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 3a85c222e7b082d40aa8da54ebcf4d96, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 3a85c222e7b082d40aa8da54ebcf4d96, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 8cc92672f60118646adcaa16ff659294, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 2a07874fe9c43d841b655c1192534821, type: 3}
@@ -3885,7 +3885,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: e6accca596c54ec4699f2943d6779c21, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: e6accca596c54ec4699f2943d6779c21, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: 48500168198a7b349b0315453e3e1ad1, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 86d134d8f5584314a9557574c8e4bd9f, type: 3}
@@ -4008,7 +4008,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 38f0d20daa800604cac8dc663d48b91e, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 38f0d20daa800604cac8dc663d48b91e, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: cb3c0cdd8dfa349468fd8edfbaf38e85, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: beb563236483d8346be4b389bc21edb5, type: 3}
