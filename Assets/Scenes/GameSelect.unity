@@ -3532,7 +3532,10 @@ MonoBehaviour:
         - {fileID: 21300000, guid: e14e37555c99bf2428ecf1a46d155e02, type: 3}
         - {fileID: 21300000, guid: 41891ee8f3f48d841947840f1bda664d, type: 3}
         overlayOverload:
-        - {fileID: 21300000, guid: 975a89f894352e546ae69a2b9532b7e4, type: 3}
+        - {fileID: 21300000, guid: 717530111d53e9244b54e54522204360, type: 3}
+        - {fileID: 21300000, guid: fbafa8cf0d114b347b6a0d58e3c04f0d, type: 3}
+        - {fileID: 21300000, guid: c031c91c989e085438774eb94a208231, type: 3}
+        - {fileID: 21300000, guid: fb2917a51a34741499345cb0c4179496, type: 3}
         overlayCTF: []
         overlayKoTH: []
         overlayNeutralBomb: []
@@ -3655,7 +3658,10 @@ MonoBehaviour:
         - {fileID: 21300000, guid: a9cc071ced4156b4e997e276d6d502c6, type: 3}
         - {fileID: 21300000, guid: efb27ae7c6c4d9049982511c534cd578, type: 3}
         overlayOverload:
-        - {fileID: 21300000, guid: 320ce54cb8bcd394392ace73b092499f, type: 3}
+        - {fileID: 21300000, guid: 78db3226e7b24704aaefbb9cbbe7f516, type: 3}
+        - {fileID: 21300000, guid: 374a7e24543aaf34e831dd4dbbdd0849, type: 3}
+        - {fileID: 21300000, guid: a15b884da0a17154c99f9d4fab2876d5, type: 3}
+        - {fileID: 21300000, guid: d5665fef0d13a174f8c9325ac45dfa58, type: 3}
         overlayCTF: []
         overlayKoTH: []
         overlayNeutralBomb: []
@@ -4131,7 +4137,10 @@ MonoBehaviour:
         - {fileID: 21300000, guid: 555439a81d274ef4f91c78e389b680f4, type: 3}
         - {fileID: 21300000, guid: 33c07d23008d7744ca3f0f7ead5f56a7, type: 3}
         overlayOverload:
-        - {fileID: 21300000, guid: 7167b32d1255f9c4a919a7923d7fd699, type: 3}
+        - {fileID: 21300000, guid: c5de9617293fd4341983b4a409df4d2c, type: 3}
+        - {fileID: 21300000, guid: 009d86cd4eec8374db85b1eccb7aa519, type: 3}
+        - {fileID: 21300000, guid: a29c7040adae427499a8e57d41fded44, type: 3}
+        - {fileID: 21300000, guid: 41958623a23a8eb4592eab0dd0da2c15, type: 3}
         overlayCTF: []
         overlayKoTH: []
         overlayNeutralBomb: []
