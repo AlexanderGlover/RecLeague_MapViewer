@@ -3519,7 +3519,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: 4e540cbe868560f4091fa5a8c04f7893, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 9c31eec114c5373418f9c69494ea3661, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: c9dc0cd1b2d06ba4e8513cf56b704221, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 8e7e508d5dea5b24f83d49170297c9fc, type: 3}
@@ -3643,15 +3643,15 @@ MonoBehaviour:
     - mName: Exposure
       mCompetetive: 1
       mMapImages:
-        mapBase: {fileID: 21300000, guid: 3a85c222e7b082d40aa8da54ebcf4d96, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 8cc92672f60118646adcaa16ff659294, type: 3}
+        mapBase: {fileID: 21300000, guid: 831db9837df860e4f9d33e9fc4783c71, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: f0f0821fcb0b20c4d8d95f6a2dd19227, type: 3}
         overlayCtrl: []
         overlayHP:
-        - {fileID: 21300000, guid: 2a07874fe9c43d841b655c1192534821, type: 3}
+        - {fileID: 21300000, guid: 6e79ae2ee42224e4cb077111c1508774, type: 3}
         - {fileID: 21300000, guid: f54fea4bd4c3a0144af52ab07cae0f1c, type: 3}
         - {fileID: 21300000, guid: c12ccd866cc2c274bb5595ea0758b728, type: 3}
         - {fileID: 21300000, guid: 6d84455c7ec113a41becc436535d2036, type: 3}
-        - {fileID: 21300000, guid: 36ae130576088a14888c924426104e81, type: 3}
+        - {fileID: 21300000, guid: 3975e9992d8a2f04b8c7021a1bf1257f, type: 3}
         - {fileID: 21300000, guid: ada6988d979177a44866b7ae56b909b4, type: 3}
         overlaySnD:
         - {fileID: 21300000, guid: cf10557d4c494b9419b377510eba31dc, type: 3}
@@ -4123,7 +4123,7 @@ MonoBehaviour:
       mCompetetive: 1
       mMapImages:
         mapBase: {fileID: 21300000, guid: e6accca596c54ec4699f2943d6779c21, type: 3}
-        overlayCallouts: {fileID: 21300000, guid: 48500168198a7b349b0315453e3e1ad1, type: 3}
+        overlayCallouts: {fileID: 21300000, guid: ba870e44ecd1c8a4b9e6c9de48f33be6, type: 3}
         overlayCtrl: []
         overlayHP:
         - {fileID: 21300000, guid: 86d134d8f5584314a9557574c8e4bd9f, type: 3}
