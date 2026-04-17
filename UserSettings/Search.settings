@@ -11,6 +11,9 @@ scopes = {
 	"last_search.110DEAF1" = "h: ref=<$object:none$>"
 	"OpenInspectorPreview.110DEAF1" = "0"
 	"currentGroup.110DEAF1" = "asset"
+	"last_search.310DEAF1" = "_unity_self"
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
 }
 providers = {
 	adb = {
@@ -62,6 +65,8 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
+	"af95451922f042e9a8d1a10956fb36a2"
 	"h: ref=<$object:none$>"
 ]
 searchItemFavorites = [
